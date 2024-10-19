@@ -1,17 +1,17 @@
 <!-- src/App.vue -->
 <template>
   <div id="app">
-    <BackendDemo />
+    <TaskList />  <!-- 使用 TaskList 组件 -->
   </div>
 </template>
 
 <script>
-import BackendDemo from './components/BackendDemo.vue';
+import TaskList from './components/TaskList.vue';
 
 export default {
   name: 'App',
   components: {
-    BackendDemo,
+    TaskList,
   },
 };
 </script>
